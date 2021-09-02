@@ -1,0 +1,59 @@
+{
+  "name": "crypto-bot",
+  "version": "0.1.0",
+  "bin": {
+    "crypto-bot": "bin/crypto-bot.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "cdk": "cdk",
+    "test-all": "jest --config=jest.all.config.js",
+    "test-e2e": "jest --config=jest.e2e.config.js",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix",
+    "start": "ng serve --configuration development",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.121.0",
+    "@aws-cdk/aws-cloudwatch-actions": "^1.121.0",
+    "@aws-cdk/aws-ec2": "^1.121.0",
+    "@aws-cdk/aws-events": "^1.121.0",
+    "@aws-cdk/aws-events-targets": "^1.121.0",
+    "@aws-cdk/aws-iam": "^1.121.0",
+    "@aws-cdk/aws-lambda": "^1.121.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.121.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.121.0",
+    "@aws-cdk/aws-rds": "^1.121.0",
+    "@aws-cdk/aws-sqs": "^1.121.0",
+    "@aws-cdk/core": "^1.121.0",
+    "@types/aws-lambda": "^8.10.83",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "4.3.0",
+    "@typescript-eslint/parser": "4.3.0",
+    "aws-cdk": "^1.121.0",
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.0.0",
+    "jest": "^27.0.4",
+    "jest-html-reporters": "^2.1.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.28.0",
+    "@aws-sdk/client-rds-data": "^3.28.0",
+    "@aws-sdk/client-s3": "^3.28.0",
+    "@aws-sdk/client-sqs": "^3.28.0",
+    "@aws-sdk/node-http-handler": "^3.25.0",
+    "@aws-sdk/protocol-http": "^3.25.0",
+    "@aws-sdk/s3-request-presigner": "^3.28.0",
+    "@aws-sdk/signature-v4": "^3.25.0",
+    "axios": "^0.21.1",
+    "esbuild": "^0.12.24",
+    "tslib": "^2.3.1"
+  }
+}
