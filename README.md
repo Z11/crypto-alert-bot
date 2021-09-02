@@ -47,6 +47,7 @@ that's it :) the application is already created to run when necessary :D
 should be able to see the alerts in PostGreSQL
 ![image](https://user-images.githubusercontent.com/4098471/131809659-de31400b-9918-4b61-a8bb-66e32584eec9.png)
 
+![image](https://user-images.githubusercontent.com/4098471/131809793-17bbed5c-7766-4abf-b291-0b837fc72b57.png)
 
 Also, if you choose to remove this app from AWS, then all you have to do is 'cdk destroy'
 
