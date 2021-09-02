@@ -22,7 +22,7 @@ Create TABLE currencyPairAlerts (
  id text UNIQUE,
  currencyPair text,
  interval text,
- priceOscillationPercentage int,
+ priceOscillationPercentage float,
  timeOfAlert timestamp 
 );
 ```

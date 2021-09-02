@@ -1,4 +1,4 @@
-import { loopPairsToSend, handler } from './handler';
+import { loopPairsToSend } from './handler';
 
 describe('Test initiateLookUpOnCurrency', () => {
   beforeAll(async () => {
@@ -9,14 +9,4 @@ describe('Test initiateLookUpOnCurrency', () => {
     const succeeded = await loopPairsToSend(1, ['LTC-USD'], 'https://api.uphold.com/v0/ticker/', '');
     expect(succeeded).toBe(true);
    });
-
-  /**
-  * @jest-environment node
-  */
-  // it('getCurrencyPairInformation function should not fail', async () => {
-  //   await getCurrencyPairInformation('https://api.uphold.com/v0/ticker/', 'LTC-USD');
-  //   expect(true).toBe(true);
-  // });
-
-
 });
